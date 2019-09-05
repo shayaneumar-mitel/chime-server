@@ -1,0 +1,19 @@
+{
+  "name": "chime-server",
+  "version": "1.0.0",
+  "description": "Chime server",
+  "main": "chime-server.js",
+  "scripts": {
+    "start": "node chime-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "aws-sdk": "file:aws-sdk"
+  }
+}
